@@ -8,8 +8,14 @@ public class Loops {
             System.out.println(arraySimples[i]);
         }
         // Exemplo de foreach
-        for(int numero : arraySimples) {
-            System.out.println(numero);
-        }
+//        for(int numero : arraySimples) {
+//            System.out.println(numero);
+//        }
+//        int a = 0;
+//        while(a < 10) {
+//            System.out.println(a);
+//            a++;
+//        }
+
     }
 }
