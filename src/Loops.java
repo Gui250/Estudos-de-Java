@@ -4,8 +4,12 @@ public class Loops {
 
       //  System.out.println(arraySimples.length);
 
-        for(int i = 0; i <= arraySimples.length; i++) {
+        for(int i = 0; i < arraySimples.length; i++) {
             System.out.println(arraySimples[i]);
+        }
+        // Exemplo de foreach
+        for(int numero : arraySimples) {
+            System.out.println(numero);
         }
     }
 }
